@@ -1,3 +1,4 @@
 {
-  "javascript.format.semicolons": "insert"
+  "javascript.format.semicolons": "insert",
+  "files.insertFinalNewline": true
 }
