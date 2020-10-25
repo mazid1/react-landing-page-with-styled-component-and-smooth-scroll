@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/static/css/main.4c1d1e7e.chunk.css",
+    "main.js": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/static/js/main.859713ec.chunk.js",
+    "main.js.map": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/static/js/main.859713ec.chunk.js.map",
+    "runtime-main.js": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/static/js/runtime-main.4ad6047d.js",
+    "runtime-main.js.map": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/static/js/runtime-main.4ad6047d.js.map",
+    "static/js/2.bc995d47.chunk.js": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/static/js/2.bc995d47.chunk.js",
+    "static/js/2.bc995d47.chunk.js.map": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/static/js/2.bc995d47.chunk.js.map",
+    "index.html": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/index.html",
+    "precache-manifest.409010241b7ab63b207fa5d4e280aac2.js": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/precache-manifest.409010241b7ab63b207fa5d4e280aac2.js",
+    "service-worker.js": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/service-worker.js",
+    "static/css/main.4c1d1e7e.chunk.css.map": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/static/css/main.4c1d1e7e.chunk.css.map",
+    "static/js/2.bc995d47.chunk.js.LICENSE.txt": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/static/js/2.bc995d47.chunk.js.LICENSE.txt",
+    "static/media/svg-1.svg": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/static/media/svg-1.50b81502.svg",
+    "static/media/svg-2.svg": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/static/media/svg-2.48a0ae84.svg",
+    "static/media/svg-3.svg": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/static/media/svg-3.c1c40e5c.svg",
+    "static/media/svg-4.svg": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/static/media/svg-4.715313cd.svg",
+    "static/media/svg-5.svg": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/static/media/svg-5.d9e440a5.svg",
+    "static/media/svg-6.svg": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/static/media/svg-6.1dbb6f10.svg",
+    "static/media/video.mp4": "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/static/media/video.ed44dc5d.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ad6047d.js",
+    "static/js/2.bc995d47.chunk.js",
+    "static/css/main.4c1d1e7e.chunk.css",
+    "static/js/main.859713ec.chunk.js"
+  ]
+}
