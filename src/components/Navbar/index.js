@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
+import { IconContext } from 'react-icons/lib';
 import { MenuIcon, Nav, NavbarContainer, NavItem, NavLink, NavLogo, NavMenu, NavBtn, NavBtnLink } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
@@ -19,33 +20,35 @@ const Navbar = ({ toggle }) => {
 
   return (
     <>
-      <Nav scrollNav={scrollNav}>
-        <NavbarContainer>
-          <NavLogo to='/'>
-            logo
+      <IconContext.Provider value={{ color: '#fff' }}>
+        <Nav scrollNav={scrollNav}>
+          <NavbarContainer>
+            <NavLogo to='/'>
+              logo
           </NavLogo>
-          <MenuIcon onClick={toggle}>
-            <FaBars />
-          </MenuIcon>
-          <NavMenu>
-            <NavItem>
-              <NavLink to='about'>About</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to='discover'>Discover</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to='services'>Services</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to='signup'>Sign Up</NavLink>
-            </NavItem>
-          </NavMenu>
-          <NavBtn>
-            <NavBtnLink to="/signin">Sign In</NavBtnLink>
-          </NavBtn>
-        </NavbarContainer>
-      </Nav>
+            <MenuIcon onClick={toggle}>
+              <FaBars />
+            </MenuIcon>
+            <NavMenu>
+              <NavItem>
+                <NavLink to='about'>About</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to='discover'>Discover</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to='services'>Services</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to='signup'>Sign Up</NavLink>
+              </NavItem>
+            </NavMenu>
+            <NavBtn>
+              <NavBtnLink to="/signin">Sign In</NavBtnLink>
+            </NavBtn>
+          </NavbarContainer>
+        </Nav>
+      </IconContext.Provider>
     </>
   );
 };
