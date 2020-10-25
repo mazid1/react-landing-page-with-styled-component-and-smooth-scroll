@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Awesome Landing Page
+
+Laning page with background video and smooth scroll, bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and styled component.
+
+## Live Demo
+
+A live demo is available at [github-pages](https://mazid1.github.io/react-landing-page-with-styled-component-and-smooth-scroll/#/).
 
 ## Available Scripts
 
@@ -66,3 +72,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Thanking
+
+Inspired by [Brian Design](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A)
