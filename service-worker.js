@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/precache-manifest.409010241b7ab63b207fa5d4e280aac2.js"
+  "/react-landing-page-with-styled-component-and-smooth-scroll/precache-manifest.5799bdea6f1f7c06910ebd5d6ceaae54.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/mazid1/react-landing-page-with-styled-component-and-smooth-scroll/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/react-landing-page-with-styled-component-and-smooth-scroll/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
