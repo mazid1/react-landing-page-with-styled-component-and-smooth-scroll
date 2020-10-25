@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import CoverSection from '../components/CoverSection';
+import Footer from '../components/Footer';
 import InfoSection from '../components/InfoSection';
 import { aboutObj, discoverObj, signupObj } from '../components/InfoSection/Data';
 import Navbar from '../components/Navbar';
@@ -21,7 +22,8 @@ const Home = () => {
       <InfoSection {...aboutObj} />
       <InfoSection {...discoverObj} />
       <InfoSection {...signupObj} />
-      <Services></Services>
+      <Services />
+      <Footer />
     </>
   );
 };
